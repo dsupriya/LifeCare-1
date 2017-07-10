@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Why Should We Donate Blood..?"
+            android:id="@+id/textView11"
+            android:allowUndo="true"
+            android:textColor="#b00303"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" 1.There is no substitute for Blood."
+            android:layout_marginTop="15dp"
+            android:id="@+id/textView18" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="2.Every 3 seconds someone needs a blood Transfusion"
+            android:layout_marginTop="15dp"
+            android:id="@+id/textView19" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="3.Your donation will to Help save the life of upto 3 people."
+            android:layout_marginTop="15dp"
+            android:id="@+id/textView20" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" 4.Blood is the most Precious gift that anyone can give to other."
+            android:layout_marginTop="15dp"
+
+
+
+            android:id="@+id/textView21" />
+    </LinearLayout>
+</ScrollView>

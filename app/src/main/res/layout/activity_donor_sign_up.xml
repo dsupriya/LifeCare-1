@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:layout_alignParentTop="true"
+    android:fillViewport="false"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.pratiksha.lifecare_20.DonorSignUp">
+
+        android:weightSum="1">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="full_name"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="30dp" />
+
+        <EditText
+            android:layout_width="275dp"
+            android:layout_height="30dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/dname_et"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="#e2dede" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Username"
+            android:id="@+id/textView3"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:layout_width="275dp"
+            android:layout_height="30dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/dusername_et"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="#e2dede" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Password"
+            android:id="@+id/textView4"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:layout_width="275dp"
+            android:layout_height="30dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/dpassword_et"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="#e2dede" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Retype Password"
+            android:id="@+id/textView5"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:layout_width="275dp"
+            android:layout_height="30dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/dconfirm_et"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="#e2dede" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Contact number"
+            android:id="@+id/textView6"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:layout_width="275dp"
+            android:layout_height="30dp"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/dcontact_et"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="#e2dede" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Blood Group"
+            android:id="@+id/blooggroup_txt"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:layout_width="275dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:id="@+id/dblooggroup_et"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="#e2dede" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Age"
+            android:id="@+id/age_txt"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:layout_width="275dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:id="@+id/dage_et"
+            android:inputType="number"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="#e2dede" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Submit"
+            android:id="@+id/donorregistersubmit_bt"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="30dp"
+            android:background="#b61421"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+

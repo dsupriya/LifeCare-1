@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false"
+    android:clickable="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Who Can Donate Blood ...?"
+            android:id="@+id/textView12"
+            android:textSize="30dp"
+            android:textColor="#b61421" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1.Donor Should be with weight of minimum 50kg body temperature and blood pressure should be normal"
+            android:id="@+id/textView13"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="2.Both Men and women can donate"
+
+            android:id="@+id/textView16" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" 3.Hemoglobin should be greater than 12."
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView17" />
+    </LinearLayout>
+</ScrollView>

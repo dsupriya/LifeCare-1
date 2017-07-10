@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pratiksha.lifecare_20">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+
+        </activity>
+        <activity android:name=".DonorPatient" />
+        <activity android:name=".DonorSignUp" />
+        <activity android:name=".PatientSignUp" />
+        <activity android:name=".AboutLifeCare" />
+        <activity android:name=".Why" />
+        <activity android:name=".Who" />
+        <activity android:name=".Compatible" />
+        <activity android:name=".RequestBlood" />
+        <activity android:name=".DonarList" />
+        <activity android:name=".AppHelp" />
+        <activity android:name=".Donor_coustom" />
+        <activity android:name=".DonorDetail" />
+        <activity android:name=".Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
