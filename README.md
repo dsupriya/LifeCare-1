@@ -1,5 +1,6 @@
 # LifeCare-1
 
+#Find lifeCare report.pdf file for more deatils on the project
 #problem and the need of the App
 
 Every two seconds someone in the India needs blood.
